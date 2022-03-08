@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown To DISNEY WORLD</title>
+    <link type="text/css" href="demo.css?v=1.0.0" rel="stylesheet">
+    <link type="text/css" href="./countdown/jquery.countdown.css?v=1.0.0" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./countdown/jquery.countdown.min.js?v=1.0.0"></script>
+</head>
+<body>
+
+    <embed name="StarWarsTheme" class="music" src="sounds/DCA.mp3" loop="false" autostart="true">
+    <ul id="example">
+        <li><span class="days">00</span><p class="days_text">DAYS</p></li>
+        <li class="seperator">:</li>
+        <li><span class="hours">00</span><p class="hours_text">HOURS</p></li>
+        <li class="seperator">:</li>
+        <li><span class="minutes">00</span><p class="minutes_text">MINUTES</p></li>
+        <li class="seperator">:</li>
+        <li><span class="seconds">00</span><p class="seconds_text">SECONDS</p></li>
+	<div class="elise">UNTIL DISNEY!!!</div>
+    </ul>
+   
+
+    <script class="source" type="text/javascript">
+        var now = new Date();
+        var day = 29;
+        var month = 06;
+        var year = 2022;
+
+        var nextyear = month + '/' + day + '/' + year + ' 07:00:00';
+
+        $('#example').countdown({
+            date: nextyear, // TODO Date format: 07/27/2017 17:00:00
+            offset: +1, // TODO Your Timezone Offset
+            day: 'Day',
+            days: 'Days'
+        }, function () {
+            alert('Done!');
+        });
+    </script>
+
+</body>
+</html>
+
+	</ul>
+</body>
+</html>

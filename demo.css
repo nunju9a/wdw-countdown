@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+body {
+    background-image: url(./castle7.jpg);
+    color: black;
+    font: normal 10px 'Open Sans', sans-serif;
+    margin-top: 15px;
+    background-size: cover;
+}
+
+}
+
+ul#example li p {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+}
+
+ul#buttons {
+	list-style: none;
+	text-align: center;
+
+	margin-top: 20px;
+    margin-left: -50px;
+}
+ul#buttons li {
+	display: inline-block;
+}
+ul#buttons li + li {
+	margin-left: 20px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.source {
+    width: 0px;
+    margin: 0 auto;
+    background: #4f5861;
+    color: #4f5861;
+    font-weight: bold;
+    font-size: 0px;
+    display: block;
+    white-space: pre;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.btn {
+	margin: 40px auto;
+	padding: 12px;
+	width: 100px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.btn:hover {
+	text-decoration: none;
+	opacity: .7;
+}
+.btn.download {
+	background: #eb8a9c;
+	padding-right: 34px;
+}
+.btn.forkme {
+	background: url('https://epiksel.github.io/countdown/images/blacktocat.png') #f56c4c no-repeat 95% 50%;
+	padding-right: 40px;
+}
+
+.music {
+    position: absolute;
+    top: -100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: left;
+    background-color: rgba(255, 0, 0, 0.4);
+}
